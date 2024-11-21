@@ -3,7 +3,7 @@ export const MeowsNFTAddress =
 export const FakeNFTMarketplaceAddress =
   "0x7B59E0bC6B67b8d1Ae1804A25Aa9AF8778893912";
 export const MeowsDAOAddress =
-  "0xe8bb65eAE66A6DCc8A8Df309fFfAeD85aCb594Df";
+  "0x944123a3d01Ed92f22239eebf0fdA2924E8F513c";
 
 export const MeowsNFTABI =  [
     {

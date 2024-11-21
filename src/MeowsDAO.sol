@@ -92,7 +92,7 @@ contract MeowsDAO is Ownable {
         for (uint256 i; i < voterNFTBalance; i++) {
             uint256 tokenId = meowsNFT.tokenOfOwnerByIndex(msg.sender, i);
 
-            if (proposal.voters[tokenId] = false) {
+            if (proposal.voters[tokenId] == false) {
                 numVotes++;
                 proposal.voters[tokenId] = true;
             }
